@@ -13,8 +13,8 @@ type Form = {
   descripcion: string
   operacion: 'venta' | 'alquiler'
   tipo: 'departamento' | 'casa' | 'terreno'
-  lat: number | ''
-  lng: number | ''
+  lat: number | null
+  lng: number | null
   imagenes: string[]
   destacada: boolean
 }
@@ -40,8 +40,8 @@ export default function Admin() {
     descripcion: '',
     operacion: 'venta',
     tipo: 'departamento',
-    lat: '',
-    lng: '',
+    lat: null,
+    lng: null,
     imagenes: [],
     destacada: false,
   })
@@ -89,7 +89,7 @@ export default function Admin() {
       return
     }
 
-    if (form.lat === '' || form.lng === '') {
+    if (form.lat === null || form.lng === null) {
       setMessage('Seleccioná la ubicación en el mapa')
       return
     }
@@ -135,8 +135,8 @@ export default function Admin() {
             descripcion: '',
             operacion: 'venta',
             tipo: 'departamento',
-            lat: '',
-            lng: '',
+            lat: null,
+            lng: null,
             imagenes: [],
             destacada: false,
           })

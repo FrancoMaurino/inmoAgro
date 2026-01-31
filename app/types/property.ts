@@ -1,3 +1,5 @@
+export type Operacion = 'venta' | 'alquiler'
+
 export type Property = {
   id: string
   titulo: string
@@ -5,9 +7,10 @@ export type Property = {
   precio: number
   hectareas: number
   imagen: string
+  imagenes?: string[]  
   descripcion: string
-  operacion: 'venta' | 'alquiler'
-  tipo: 'departamento' | 'casa' | 'terreno'
+  operacion: Operacion
+  tipo: string
   lat: number
   lng: number
   destacada?: boolean

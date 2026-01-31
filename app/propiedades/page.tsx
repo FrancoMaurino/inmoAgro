@@ -1,12 +1,15 @@
 'use client'
 
 import { useState } from 'react'
-import properties from '../../data/properties.json'
 import { filterProperties, PropertyFilters } from '../lib/filterProperties'
 import Filters from '../components/Filters'
 import PropertiesGrid from '../components/PropertiesGrid'
 import MapContainer from 'app/components/MapContainer'
 import PropertyMap from 'app/components/PropertyMap'
+import rawProperties from '../../data/properties.json'
+import { Property } from '../types/property'
+
+const properties = rawProperties as Property[]
 
 
 export default function PropiedadesPage() {

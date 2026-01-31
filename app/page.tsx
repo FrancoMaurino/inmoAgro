@@ -3,11 +3,15 @@ import Hero from './components/Hero'
 import FeaturedProperties from './components/FeaturedProperties'
 import CallToAction from './components/CallToAction'
 import properties from '../data/properties.json'
+import propiedadesRaw from '../data/properties.json'
+import { Property } from './types/property'
 
 export default function Home() {
 
-  
-const destacadas = properties.filter(p => p.destacada)
+const propiedades = propiedadesRaw as Property[]
+
+const destacadas = propiedades.filter(p => p.destacada)
+
   return (
     
     <main>      
