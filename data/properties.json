@@ -1,0 +1,172 @@
+[
+  {
+    "id": "a406b1e0-51a0-4635-b809-7ccba7b8bb59",
+    "titulo": "Prueba destacada 2",
+    "ubicacion": "Buena Nueva",
+    "precio": 80500,
+    "hectareas": 5,
+    "imagen": "blob:http://localhost:3000/0621c726-001b-4f74-8178-19f23b7fec72",
+    "descripcion": "",
+    "operacion": "venta",
+    "tipo": "Campo",
+    "lat": -32.90161174511093,
+    "lng": -68.7473496439006,
+    "imagenes": [
+      "blob:http://localhost:3000/0621c726-001b-4f74-8178-19f23b7fec72"
+    ],
+    "destacada": true
+  },
+  {
+    "id": "bb46984d-0d9b-4edd-8e84-f058073eb495",
+    "titulo": "Prueba destacada",
+    "ubicacion": "Lavalle",
+    "precio": 20000,
+    "hectareas": 12,
+    "imagen": "blob:http://localhost:3000/de204099-8d38-4a83-9507-bc315500281c",
+    "descripcion": "",
+    "operacion": "venta",
+    "tipo": "Finca",
+    "lat": -32.80153067895392,
+    "lng": -68.66117563267014,
+    "imagenes": [
+      "blob:http://localhost:3000/de204099-8d38-4a83-9507-bc315500281c"
+    ],
+    "destacada": true
+  },
+  {
+    "id": "66f8d4db-d945-4d3f-8829-8ab75a34e73f",
+    "titulo": "Prueba preview",
+    "ubicacion": "Las Heras",
+    "precio": 250000,
+    "hectareas": 100,
+    "imagen": "blob:http://localhost:3000/56dc1bfe-9e98-4721-bf99-381014bb20b9",
+    "descripcion": "Prueba para carga de imagenes con portada",
+    "operacion": "venta",
+    "tipo": "Quinta",
+    "lat": -32.8513257343384,
+    "lng": -68.8370255455014,
+    "imagenes": [
+      "blob:http://localhost:3000/20bad77c-042b-4d2e-a6a0-1f391cfc62ef",
+      "blob:http://localhost:3000/56dc1bfe-9e98-4721-bf99-381014bb20b9",
+      "blob:http://localhost:3000/2f0b083b-e81f-4a92-9fa2-634cd86789d5",
+      "blob:http://localhost:3000/468205e4-3feb-4683-8e3d-83ca63c3debb"
+    ]
+  },
+  {
+    "id": "0cf9f71f-64ef-48a0-9aaa-a55f2c0941af",
+    "titulo": "prueba ha",
+    "ubicacion": "San Juan",
+    "precio": 100000,
+    "hectareas": 200,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "tst",
+    "operacion": "venta",
+    "tipo": "Quinta",
+    "lat": -32.893828508464644,
+    "lng": -68.8297471048381,
+    "imagenes": []
+  },
+  {
+    "id": "5e7dd6ae-7497-43c8-9e26-d1eee176b3cc",
+    "titulo": "Test",
+    "ubicacion": "Mendoza",
+    "precio": 123456,
+    "hectareas": 500,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "descripcion prueba",
+    "operacion": "alquiler",
+    "tipo": "Quinta",
+    "lat": -32.90458455613012,
+    "lng": -68.77137161243903,
+    "imagenes": [
+      "blob:http://localhost:3000/e2cc331b-5cf5-4d3b-aad9-cc89b852e476",
+      "blob:http://localhost:3000/841eb9dc-02d8-4b16-bbb3-6f85f5547b27",
+      "blob:http://localhost:3000/51684aea-6a7c-4bb7-b141-05643aa80698",
+      "blob:http://localhost:3000/053f2ca2-a261-46b4-ab8a-689853eb5adb",
+      "blob:http://localhost:3000/60dc2fdd-f9a1-4257-8966-6cb60388c635"
+    ]
+  },
+  {
+    "id": "42c75a17-4dc6-40a1-b4f6-22238bc7139a",
+    "titulo": "Prueba fotos",
+    "ubicacion": "Godoy Cruz",
+    "precio": 1111,
+    "hectareas": 500,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "prueba fotos",
+    "operacion": "venta",
+    "tipo": "Finca",
+    "lat": -32.86776410317487,
+    "lng": -68.7842911743164,
+    "imagenes": [
+      "blob:http://localhost:3000/5f31c65c-33de-4de7-bd88-41d781594012",
+      "blob:http://localhost:3000/b4bd63c6-f613-4279-baef-45900107d837",
+      "blob:http://localhost:3000/406ee37b-533f-4669-8e1e-e27179fbdda1"
+    ]
+  },
+  {
+    "id": "8e4cc1c9-0c34-41a3-9e56-9c0a0886ec11",
+    "titulo": "Titulo Prueba",
+    "ubicacion": "Mendoza",
+    "precio": 91218,
+    "hectareas": 500,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "Prueba ",
+    "operacion": "venta",
+    "tipo": "Finca",
+    "lat": -32.89198349460067,
+    "lng": -68.84952249755858
+  },
+  {
+    "id": "d005ff53-baf5-4db1-921a-d6a2c2b5f13b",
+    "titulo": "Prueba ubicacion",
+    "ubicacion": "Guaymallen",
+    "precio": 120000,
+    "hectareas": 500,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "Prueba para agregar ubi",
+    "operacion": "venta",
+    "tipo": "Campo",
+    "lat": -32.90115861673865,
+    "lng": -68.81928205490112
+  },
+  {
+    "id": "1",
+    "titulo": "Casa",
+    "ubicacion": "Rosario Centro",
+    "precio": 85000,
+    "hectareas": 500,
+    "imagen": "/propiedad1.jpg",
+    "descripcion": "Departamento luminoso de 2 ambientes",
+    "operacion": "venta",
+    "tipo": "Campo",
+    "lat": -32.910185,
+    "lng": -68.808874
+  },
+  {
+    "id": "2",
+    "titulo": "Departamento",
+    "ubicacion": "Guaymallen",
+    "precio": 85000,
+    "hectareas": 500,
+    "imagen": "/propiedad2.jpg",
+    "descripcion": "Departamento luminoso de 2 ambientes",
+    "operacion": "venta",
+    "tipo": "Campo",
+    "lat": -32.9,
+    "lng": -68.82
+  },
+  {
+    "id": "3",
+    "titulo": "Departamento ",
+    "ubicacion": "Mendoza",
+    "precio": 85000,
+    "hectareas": 500,
+    "imagen": "/propiedad3.jpg",
+    "descripcion": "Departamento luminoso de 2 ambientes, ideal inversión.",
+    "operacion": "alquiler",
+    "tipo": "Campo",
+    "lat": -32.94682,
+    "lng": -60.63932
+  }
+]
